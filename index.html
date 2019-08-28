@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mad Lib</title>
+<meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link type="text/css" rel="stylesheet" href="main.css"/>
+<link href="https://fonts.googleapis.com/css?family=Anton|Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	<h2>MAD LIB</h2>
+</header>
+
+<div class='content-wrapper'>
+	<form id="form-wrapper">
+		<h1>Add some words to make your story funny!</h1>
+		<h3>Do You <span>(VERB)</span> your <span>(ADJECTIVE)</span> <span>(NOUN)</span> <span>(ADVERB)</span>?</h3>
+		<div class="input-row">
+			<label for="inputNoun">Noun:</label>
+			<input type="text" id="inputNoun" placeholder="Enter Noun" required/>
+		</div>
+		<div class="input-row">
+			<label for="inputVerb">Verb:</label>
+			<input type="text" id="inputVerb" required/>
+		</div>
+		<div class="input-row">
+			<label for="inputAdverb">Adverb:</label>
+			<input type="text" id="inputAdverb" required/>
+		</div>
+		<div class="input-row">
+			<label for="inputAdjective">Adjective:</label>
+			<input type="text" id="inputAdjective" required/>
+		</div>
+		<div class="button-row">
+			<input type="submit" value="Create your Mad Lib!"/>
+		</div>
+	</form>
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
